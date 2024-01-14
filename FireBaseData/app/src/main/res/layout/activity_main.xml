@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signup"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/brown"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:text="Welcome ! SIGN UP here" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/btnName"
+            android:hint="Enter your Name " />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        app:startIconDrawable="@drawable/baseline_email_24"
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/btnMail"
+            android:hint="Enter your Email Address " />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/baseline_key_24"
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/btnPassword"
+            android:hint="Enter your Password " />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/btnUniqueId"
+            android:hint="Enter your Unique Id " />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/pink"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP" />
+
+    <TextView
+        android:id="@+id/textViewSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="If already Registered , click SIGN IN" />
+
+
+</LinearLayout>

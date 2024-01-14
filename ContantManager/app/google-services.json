@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54110974991",
+    "project_id": "contact-manager-2671e",
+    "storage_bucket": "contact-manager-2671e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54110974991:android:398601458280d72967df7a",
+        "android_client_info": {
+          "package_name": "com.example.contantmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YaTUUvSkbUF81m-fbG-SwlyJB2tiImg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
